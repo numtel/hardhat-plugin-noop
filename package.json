@@ -1,0 +1,9 @@
+{
+  "name": "hardhat-plugin-noop",
+  "version": "0.0.1",
+  "description": "Enable use of @nomicfoundation/hardhat-verify without adding main hardhat dependency",
+  "main": "index.js",
+  "repository": "https://github.com/numtel/hardhat-plugin-noop",
+  "author": "numtel <ben@latenightsketches.com>",
+  "license": "MIT"
+}

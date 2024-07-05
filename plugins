@@ -1,0 +1,8 @@
+exports.HARDHAT_NETWORK_NAME = '';
+exports.NomicLabsHardhatPluginError = class NomicLabsHardhatPluginError extends Error {
+  constructor(module, msg, parent) {
+    super(msg);
+    this.module = module;
+    this.parent = parent;
+  }
+}
